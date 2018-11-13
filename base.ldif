@@ -1,0 +1,21 @@
+dn: dc=sesame,dc=street
+dc: sesame
+objectClass: top
+objectClass: domain
+
+dn: cn=ldapadm,dc=sesame,dc=street
+objectClass: organizationalRole
+cn: ldapadm
+description: LDAP Manager
+
+dn: ou=people,dc=sesame,dc=street
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=groups,dc=sesame,dc=street
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=certs,dc=sesame,dc=street
+objectClass: organizationalUnit
+ou: certs

@@ -1,0 +1,17 @@
+dn: cn=Big Bird,ou=people,dc=sesame,dc=street
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Big Bird
+uid: bbird
+uidNumber: 9999
+gidNumber: 100
+homeDirectory: /home/bbird
+loginShell: /bin/bash
+gecos: bbird@sesame.street
+userPassword: {crypt}x
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7

@@ -1,0 +1,17 @@
+dn: cn=Elmo,ou=people,dc=sesame,dc=street
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Elmo
+uid: elmo
+uidNumber: 10002
+gidNumber: 100
+homeDirectory: /home/elmo
+loginShell: /bin/bash
+gecos: elmo@sesame.street
+userPassword: {crypt}x
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
